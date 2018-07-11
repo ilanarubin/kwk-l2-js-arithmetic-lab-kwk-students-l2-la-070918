@@ -13,7 +13,7 @@ You should NOT try to redefine any of the above variables.
 if (Number.isInteger(currentAge))
     {ageIsValid = true
     }
-  var randomNumber = Math.random(0,20)
+  var randomNumber = Math.floor(Math.random()*21)+0
   
   var randomInteger= Math.round(randomNumber);
   
